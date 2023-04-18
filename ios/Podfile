@@ -22,9 +22,6 @@ if linkage != nil
 end
 
 target 'studyverse' do
-
-  # twilio sdk
-  pod 'TwilioVideo', '~> 4.6'
   
   config = use_native_modules!
 
@@ -46,6 +43,10 @@ target 'studyverse' do
     # An absolute path to your application root.
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
+
+
+  # twilio sdk
+  pod 'TwilioVideo', '~> 4.6'
 
   target 'studyverseTests' do
     inherit! :complete
