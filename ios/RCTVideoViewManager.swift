@@ -6,3 +6,13 @@
 //
 
 import Foundation
+import TwilioVideo
+import React
+
+@objc(RCTVideoViewManager)
+class RCTVideoViewManager: RCTViewManager {
+  override func view() -> UIView! {
+    return VideoView()
+  }
+}
+
