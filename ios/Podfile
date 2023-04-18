@@ -22,6 +22,10 @@ if linkage != nil
 end
 
 target 'studyverse' do
+
+  # twilio sdk
+  pod 'TwilioVideo', '~> 4.6'
+  
   config = use_native_modules!
 
   # Flags change depending on the env values.
