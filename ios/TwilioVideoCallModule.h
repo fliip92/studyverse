@@ -4,9 +4,12 @@
 //
 //  Created by Felipe Loyola on 4/17/23.
 //
+#import <React/RCTBridgeModule.h>
+#import <React/RCTEventEmitter.h>
 
-#ifndef TwilioVideoCallModule_h
-#define TwilioVideoCallModule_h
+@interface TwilioVideoCallModule : RCTEventEmitter
+@end
 
 
-#endif /* TwilioVideoCallModule_h */
+//RCT_EXTERN_MODULE();
+

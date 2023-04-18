@@ -2,6 +2,8 @@
 
 #import <React/RCTBundleURLProvider.h>
 
+#import "TwilioVideoCallModule.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -32,5 +34,15 @@
 {
   return true;
 }
+
+- (NSArray<id<RCTBridgeModule>> *)extraModulesForBridge:(RCTBridge *)bridge {
+  // Add the TwilioVideoCallModule to the list of extra modules
+  NSArray<id<RCTBridgeModule>> *extraModules = @[
+    [[TwilioVideoCallModule alloc] init]
+  ];
+  return extraModules;
+}
+
+
 
 @end
