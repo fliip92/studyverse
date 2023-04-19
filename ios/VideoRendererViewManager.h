@@ -5,8 +5,9 @@
 //  Created by Felipe Loyola on 4/18/23.
 //
 
-#ifndef VideoRendererViewManager_h
-#define VideoRendererViewManager_h
+#import <React/RCTViewManager.h>
 
+@interface VideoRendererViewManager : RCTViewManager
 
-#endif /* VideoRendererViewManager_h */
+@end
+
