@@ -11,8 +11,9 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		55EFBF1D29EE2FC2005712DB /* TwilioVideoCallModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EFBF1C29EE2FC2005712DB /* TwilioVideoCallModule.swift */; };
-		55EFBF1F29EE477C005712DB /* RCTVideoViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EFBF1E29EE477C005712DB /* RCTVideoViewManager.swift */; };
+		55EFBF2229EF75DA005712DB /* VideoRendererView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EFBF2129EF75DA005712DB /* VideoRendererView.swift */; };
+		55EFBF2429EF75F2005712DB /* VideoRendererViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EFBF2329EF75F2005712DB /* VideoRendererViewManager.swift */; };
+		55EFBF2A29EF8958005712DB /* TwilioVideoModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 55EFBF2929EF8957005712DB /* TwilioVideoModule.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		A82051950821D2E871E3242B /* libPods-studyverse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 246F82B44D936A4B75ADAC84 /* libPods-studyverse.a */; };
 		DF3357B4E1C392F12673A066 /* libPods-studyverse-studyverseTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 321248C2F6269643F4106F7E /* libPods-studyverse-studyverseTests.a */; };
@@ -43,10 +44,12 @@
 		246F82B44D936A4B75ADAC84 /* libPods-studyverse.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-studyverse.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		321248C2F6269643F4106F7E /* libPods-studyverse-studyverseTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-studyverse-studyverseTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FB3D47F860E6523CD2F4F3E /* Pods-studyverse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-studyverse.release.xcconfig"; path = "Target Support Files/Pods-studyverse/Pods-studyverse.release.xcconfig"; sourceTree = "<group>"; };
-		55EFBF1A29EE2F89005712DB /* TwilioVideoCallModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwilioVideoCallModule.h; sourceTree = "<group>"; };
 		55EFBF1B29EE2FC1005712DB /* studyverse-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "studyverse-Bridging-Header.h"; sourceTree = "<group>"; };
-		55EFBF1C29EE2FC2005712DB /* TwilioVideoCallModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwilioVideoCallModule.swift; sourceTree = "<group>"; };
-		55EFBF1E29EE477C005712DB /* RCTVideoViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RCTVideoViewManager.swift; sourceTree = "<group>"; };
+		55EFBF2129EF75DA005712DB /* VideoRendererView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoRendererView.swift; sourceTree = "<group>"; };
+		55EFBF2329EF75F2005712DB /* VideoRendererViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoRendererViewManager.swift; sourceTree = "<group>"; };
+		55EFBF2529EF7BF7005712DB /* VideoRendererViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoRendererViewManager.h; sourceTree = "<group>"; };
+		55EFBF2829EF8825005712DB /* TwilioVideoModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwilioVideoModule.h; sourceTree = "<group>"; };
+		55EFBF2929EF8957005712DB /* TwilioVideoModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwilioVideoModule.m; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = studyverse/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0E63A3DE223DA683D516CA8 /* Pods-studyverse-studyverseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-studyverse-studyverseTests.debug.xcconfig"; path = "Target Support Files/Pods-studyverse-studyverseTests/Pods-studyverse-studyverseTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -122,9 +125,11 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				55EFBF1E29EE477C005712DB /* RCTVideoViewManager.swift */,
-				55EFBF1C29EE2FC2005712DB /* TwilioVideoCallModule.swift */,
-				55EFBF1A29EE2F89005712DB /* TwilioVideoCallModule.h */,
+				55EFBF2929EF8957005712DB /* TwilioVideoModule.m */,
+				55EFBF2829EF8825005712DB /* TwilioVideoModule.h */,
+				55EFBF2529EF7BF7005712DB /* VideoRendererViewManager.h */,
+				55EFBF2329EF75F2005712DB /* VideoRendererViewManager.swift */,
+				55EFBF2129EF75DA005712DB /* VideoRendererView.swift */,
 				13B07FAE1A68108700A75B9A /* studyverse */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* studyverseTests */,
@@ -424,8 +429,9 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
-				55EFBF1F29EE477C005712DB /* RCTVideoViewManager.swift in Sources */,
-				55EFBF1D29EE2FC2005712DB /* TwilioVideoCallModule.swift in Sources */,
+				55EFBF2429EF75F2005712DB /* VideoRendererViewManager.swift in Sources */,
+				55EFBF2A29EF8958005712DB /* TwilioVideoModule.m in Sources */,
+				55EFBF2229EF75DA005712DB /* VideoRendererView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

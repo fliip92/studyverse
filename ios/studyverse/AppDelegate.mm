@@ -2,7 +2,11 @@
 
 #import <React/RCTBundleURLProvider.h>
 
-#import "TwilioVideoCallModule.h"
+#import "TwilioVideoModule.h"
+#import "VideoRendererViewManager.h"
+
+
+#import "studyverse-Bridging-Header.h"
 
 @implementation AppDelegate
 
@@ -36,13 +40,12 @@
 }
 
 - (NSArray<id<RCTBridgeModule>> *)extraModulesForBridge:(RCTBridge *)bridge {
-  // Add the TwilioVideoCallModule to the list of extra modules
   NSArray<id<RCTBridgeModule>> *extraModules = @[
-    [[TwilioVideoCallModule alloc] init]
+    [[TwilioVideoModule alloc] init],
+    [[VideoRendererViewManager alloc] init]
   ];
   return extraModules;
 }
-
 
 
 @end
