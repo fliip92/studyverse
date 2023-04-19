@@ -1,5 +1,5 @@
 import {requireNativeComponent} from 'react-native';
 
-const VideoView = requireNativeComponent('RCTVideoView');
+const VideoRendererView = requireNativeComponent('VideoRendererView');
 
-export default VideoView;
+export default VideoRendererView;

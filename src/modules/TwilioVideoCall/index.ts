@@ -1,7 +1,6 @@
 import {NativeModules} from 'react-native';
-import VideoView from '../VideoView';
 
-const {TwilioVideoCallModule: NativeTwilioVideoCallModule} = NativeModules;
+const {TwilioVideoModule: NativeTwilioVideoCallModule} = NativeModules;
 
 const TwilioVideoCallModule = {
   joinRoom: async (roomName: string, accessToken: string) => {
@@ -16,7 +15,6 @@ const TwilioVideoCallModule = {
   setVideoView: (videoView: any) => {
     NativeTwilioVideoCallModule.setVideoView(videoView);
   },
-  VideoView,
 };
 
 export default TwilioVideoCallModule;
